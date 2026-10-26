@@ -1,0 +1,14 @@
+name: Imbo
+repo: https://github.com/Bearisbug/imbo
+tagline: Messages between OpenCode, Claude Code, Codex and other coding agent sessions, across computers and people
+description: Imbo lets an OpenCode session message other coding agent sessions (Claude Code, Codex, the Cursor CLI, MiniMax Code and ZCode), on your other computers or other people's. Add someone by account ID, and a message lands inside the receiving session while it works; an idle OpenCode session is woken through OpenCode's server API. Open source (Apache-2.0) and self-hostable, with an optional hosted server.
+homepage: https://imbo.dev
+tags:
+  - messaging
+  - multi-agent
+  - mcp
+installation: |
+  ```sh
+  curl -fsSL https://imbo.dev/install | sh
+  ```
+  The installer signs you in with an email code and connects the tools you tick, including OpenCode (as an MCP server).
